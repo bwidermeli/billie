@@ -1,0 +1,35 @@
+@import "shared.scss";
+
+.content {
+  width: 90%;
+  padding-top: 5px;
+  text-align: center;
+
+  .circle {
+    width: 250px;
+    height: 250px;
+    float: none;
+    margin: auto;
+
+    .circle-header {
+      padding-top: 100px;
+      margin-top: 20px;
+      font-size: 82px;
+      line-height: 10px;
+    }
+  }
+
+  .preamble {
+    width: 100%;
+    margin-top: 10px;
+
+    .info-header {
+      clear: both;
+      font-size: 34px;
+    }
+    
+    .info-text {
+      font-size: 12px;
+    }
+  }
+}
