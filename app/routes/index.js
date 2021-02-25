@@ -2,7 +2,7 @@ const router = require('express').Router();
 
 router.get('/', (req, res) => {
   // Initial State
-  res.render('list', {});
+  res.render('index', {});
 });
 
 module.exports = router;

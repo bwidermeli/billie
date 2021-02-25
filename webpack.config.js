@@ -33,7 +33,7 @@ if (isAdaptive) {
 module.exports = {
   entry: Object.assign({}, pageEntryPoint({
     index: [
-      path.join(baseDirectory, '/app/client/list.js'),
+      path.join(baseDirectory, '/app/client/index.js'),
     ],
     error: [
       path.join(baseDirectory, '/app/client/error.js'),
