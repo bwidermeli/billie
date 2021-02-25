@@ -1,3 +1,4 @@
+/* eslint-disable global-require */
 const config = require('config');
 const logger = require('winston-this')('index');
 const { isDevelopment } = require('./helpers/environmentHelper');
@@ -27,7 +28,7 @@ app.use(
     require('./app/routes/index'),
     require('./app/routes/404'),
   ],
-  require('./middleware/error-handler')
+  require('./middleware/error-handler'),
   // After Middlewares
 );
 
@@ -40,7 +41,7 @@ app.use(
   [
     // Endpoints
     require('./api/index'),
-  ]
+  ],
   // After Middlewares
 );
 

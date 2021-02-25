@@ -25,7 +25,7 @@ const App = () => {
 
   return (
     <React.Fragment>
-      <table className='item-list'>
+      <table className="item-list">
         <thead>
           <tr>
             <th>Company Name</th>
@@ -36,7 +36,7 @@ const App = () => {
           </tr>
         </thead>
         <tbody>
-          {itemList.map((item) => (
+          {itemList.map(item => (
             <tr id={item.id} onClick={openModal}>
               <td>{item.name}</td>
               <td>{item.date_of_first_purchase}</td>

@@ -1,5 +1,9 @@
 {
   "extends": "airbnb",
+  "globals": {
+    "window": true,
+    "document": true
+  },
   "rules": {
     "max-len": [
       "warn",
@@ -7,7 +11,7 @@
       2,
       {
         "ignoreUrls": true,
-        "ignoreComments": false,
+        "ignoreComments": false
       }
     ],
     "no-param-reassign": [
@@ -16,6 +20,7 @@
         "props": false
       }
     ],
+    "react/no-unescaped-entities": 0,
     "class-methods-use-this": "off",
     "react/jsx-filename-extension": "off",
     "react/no-unused-prop-types": [

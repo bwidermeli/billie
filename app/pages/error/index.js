@@ -1,6 +1,7 @@
+/* eslint-disable max-len */
 const React = require('react');
 
-const Error = props => (
+const Error = () => (
   <div>
     <div className="content">
       <div className="circle">
